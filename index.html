@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katerina Tsilingiri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .sidebar {
+      float: left;
+      width: 200px;
+      padding-right: 30px;
+      border-right: 2px solid #eee;
+    }
+
+    .sidebar .nav-item {
+      margin: 15px 0;
+      font-weight: 500;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #064e03;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    .main {
+      margin-left: 240px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #111827;
+    }
+
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border: 3px solid #064e03;
+    }
+
+    .contact {
+      margin-top: 10px;
+    }
+
+    .contact a {
+      color: #064e03;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      margin-right: 6px;
+    }
+
+    .card {
+      background-color: #f9fafb;
+      border-left: 4px solid #064e03;
+      padding: 15px 20px;
+      margin-top: 10px;
+      border-radius: 6px;
+    }
+
+    .contact img.icon {
+        width: 12px;
+        height: 12px;
+        vertical-align: middle;
+        margin-right: 6px;
+        border: none;  /* Very thin light gray border */
+        border-radius: 2px;  
+    }
+
+    @media screen and (max-width: 768px) {
+      .sidebar {
+        display: none;
+      }
+      .main {
+        margin-left: 0;
+      }
+      .profile {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="nav-item"><a href="index.html">🏠 Home</a></div>
+      <!-- <div class="nav-item"><a href="publications.html">📚 Publications</a></div> -->
+
+    </div>
+
+    <div class="main">
+      <div class="profile">
+        <!-- <img src="your-photo.jpg" alt="Katerina Tsilingiri" /> -->
+        <div>
+          <h1>Katerina Tsilingiri</h1>
+          <div class="card">
+            <p>
+              Ph.D. Candidate<br />
+              <a href="https://www.e-ce.uth.gr/?lang=en" target="_blank">Department of Electrical and Computer Engineering</a><br />
+              University of Thessaly<br />
+              Volos, Greece
+            </p>
+
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/katerina-tsilingiri/" target="_blank">
+                  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="icon">
+                  LinkedIn
+                </a><br />
+                <a href="https://orcid.org/0009-0001-8185-3050" target="_blank">
+                  <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID" class="icon">
+                  ORCID
+                </a><br />
+                ✉️ <a href="mailto:tsilingirikaterina@gmail.com">tsilingirikaterina@gmail.com</a><br />
+                ✉️ <a href="mailto:tsaikaterini@uth.gr">tsaikaterini@uth.gr</a><br />
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <h2>Biography</h2>
+      <p>Katerina Tsilingiri is a Ph.D. candidate at the University of Thessaly, under the supervision of Prof. Christos Sotiriou. She received her Integrated Master’s degree in Electrical and Computer Engineering from the University of Thessaly in September 2023. She is a member of the <a href="https://caslab.e-ce.uth.gr/" target="_blank">Circuits and Systems Lab (CASLab)</a> since September 2021.</p>
+
+      <p>She is interested in Electronic Design Automation (EDA), VLSI design, parasitic extraction, and machine learning applications in circuit analysis.</p>
+    </div>
+  </div>
+</body>
+</html>
